@@ -97,10 +97,10 @@ let animationDetails = {};
 
 var collectableList = {
   database: { image: "images/collectables/database.png" },
-  diamond: { image: "blob:chrome-untrusted://media-app/508fa2f6-6334-4777-b902-27a15dadaeb3" },
+  diamond: { image: "images/collectables/basketball.png" },
   grace: { image: "images/collectables/grace-head.png" },
   kennedi: { image: "images/collectables/kennedi-head.png" },
   max: { image: "images/collectables/max-head.png" },
   steve: { image: "images/collectables/steve-head.png" },
-  basketball: { image: "blob:chrome-untrusted://media-app/508fa2f6-6334-4777-b902-27a15dadaeb3" },
+  basketball: { image: "images/collectables/basketball.png" },
 };
