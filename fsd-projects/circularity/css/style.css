@@ -26,7 +26,7 @@
     position: absolute;
     top: -5px;
     right: -5px;
-    background: #FFD700;
+    background: #ff003c;
     color: black;
     border-radius: 50%;
     width: 20px;
@@ -39,8 +39,8 @@
 }
 
 #singlePlayerBtn {
-    background: #00FF00;
-    color: black;
+    background: #fff200;
+    color: rgb(0, 0, 0);
 }
 
 #hostGameBtn {
