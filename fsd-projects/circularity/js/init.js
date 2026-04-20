@@ -39,7 +39,7 @@ var init = function (window) {
         drawCircle();
         */
         // TODO 7 : Use a loop to create multiple circles
-        for (var i = 0; i < 50; i++) {
+        for (var i = 0; i < 20; i++) {
             drawCircle();
         }
 
@@ -74,7 +74,7 @@ var init = function (window) {
             physikz.updatePosition(circles[i]);
             game.checkCirclePosition(circles[i]);
            }
-    
+        
         /* 
         This Function should check the position of a circle that is passed to the 
         Function. If that circle drifts off the screen, this Function should move
@@ -91,11 +91,9 @@ var init = function (window) {
             if ( circle.x < 0) {
                 circle.x = canvas.width;
             }
-
             if ( circle.y < 0) {
                 circle.y = canvas.height
             }
-
             if ( circle.y > canvas.height) {
                 circle.y = 0;
             }
